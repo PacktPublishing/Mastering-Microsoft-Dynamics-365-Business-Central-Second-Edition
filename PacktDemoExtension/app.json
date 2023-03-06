@@ -1,0 +1,34 @@
+{
+  "id": "dd03d28e-4dfe-48d9-9520-c875595362b6",
+  "name": "Packt Demo Extension",
+  "publisher": "PACKT",
+  "brief": "Customer Category, Gift Campaigns and Vendor Quality Management",
+  "description": "Customer Category, Gift Campaigns and Vendor Quality Management",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://www.demiliani.com",
+  "logo": "./Logo/ExtLogo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "features": [
+    "NoImplicitWith","TranslationFile"
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://PacktDemoExtension.com/help/",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "runtime": "10.0"
+}

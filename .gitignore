@@ -1,0 +1,7 @@
+**/.vscode/launch.json
+**/.vscode/rad.json
+**/.vscode/.alcache/*
+**/.vscode/*
+**/.alpackages/*
+**/.snapshots/*
+**/*.app

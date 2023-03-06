@@ -1,0 +1,31 @@
+#the-canvas {
+	border: 1px solid black;
+	direction: ltr;
+  }
+
+
+#pdf-buttons {
+	float: left;
+}
+
+#page-count-container {
+	float: right;
+}
+
+#page_num {
+	display: inline;
+}
+
+#page_count {
+	display: inline;
+}
+
+#pdf-meta {
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+#pdf-contents {
+	width: fit-content;
+	margin: 20px auto;
+}
