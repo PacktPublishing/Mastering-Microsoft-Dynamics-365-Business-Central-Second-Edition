@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Azure Blob Attachments">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 971005545 - Field 2588032914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SD ABS Container Setup - Field Account Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 971005545 - Field 2505711900 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Container Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SD ABS Container Setup - Field Container Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 971005545 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SD ABS Container Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 971005545 - Field 1627007750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shared Access Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SD ABS Container Setup - Field Shared Access Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4212425206 - Action 1327166657 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 219593816">
+          <source>Download the file to your device. Depending on the file, you will need an app to view or edit the file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SD DocumentAttDetailsExt - Action DownloadBlob - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4212425206 - Action 1327166657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 219593816">
+          <source>Download Blob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SD DocumentAttDetailsExt - Action DownloadBlob - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
