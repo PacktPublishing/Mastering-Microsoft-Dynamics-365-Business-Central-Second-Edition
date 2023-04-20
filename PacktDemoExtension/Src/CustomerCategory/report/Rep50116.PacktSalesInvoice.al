@@ -926,8 +926,8 @@ report 50116 "Packt Sales - Invoice"
 
                 trigger OnAfterGetRecord()
                 var
-                    Customer : Record Customer;
-                    CustomerCategory : Code[20];
+                    Customer: Record Customer;
+                    CustomerCategory: Code[20];
                 begin
                     if PKTBarcodeString = '' then begin
                         if Customer.get(Header."Bill-to Customer No.") then
@@ -940,8 +940,8 @@ report 50116 "Packt Sales - Invoice"
                             CustomerCategory;
                     end;
 
-                    PKTBarcodeString += '[' + Description +  ' ' + 
-                        format(Amount, 0, 
+                    PKTBarcodeString += '[' + Description + ' ' +
+                        format(Amount, 0,
                             AutoFormat.ResolveAutoFormat("Auto Format"::AmountFormat,
                             Header."Currency Code")) + ']';
                 end;
@@ -1092,7 +1092,7 @@ report 50116 "Packt Sales - Invoice"
                 column(CurrencySymbol; CurrSymbol)
                 {
                 }
-                column(PKTEncodedString;PKTEncodedString)
+                column(PKTEncodedString; PKTEncodedString)
                 {
 
                 }
@@ -1111,9 +1111,9 @@ report 50116 "Packt Sales - Invoice"
                 trigger OnAfterGetRecord()
                 var
                     BarcodeSymbology: Enum "Barcode Symbology 2D";
-                    BarcodeFontProvider : Interface "Barcode Font Provider 2D";
-                    Customer : Record Customer;
-                    CustomerCategory : code[20];
+                    BarcodeFontProvider: Interface "Barcode Font Provider 2D";
+                    Customer: Record Customer;
+                    CustomerCategory: code[20];
                 begin
                     if PKTBarcodeString = '' then begin
                         if Customer.get(Header."Bill-to Customer No.") then
@@ -1123,19 +1123,19 @@ report 50116 "Packt Sales - Invoice"
 
                         PKTBarcodeString := format(Header."No.") + ' ' +
                             format(Header."Document Date") + ' ' +
-                            CustomerCategory + ' ';   
+                            CustomerCategory + ' ';
                     end;
 
-                    PKTBarcodeString += format(TotalAmountVAT, 0, 
-                            AutoFormat.ResolveAutoFormat("Auto Format"::AmountFormat, 
+                    PKTBarcodeString += format(TotalAmountVAT, 0,
+                            AutoFormat.ResolveAutoFormat("Auto Format"::AmountFormat,
                                 Header."Currency Code")) + ' ' +
-                        format(TotalAmountInclVAT, 0, 
-                            AutoFormat.ResolveAutoFormat("Auto Format"::AmountFormat, 
+                        format(TotalAmountInclVAT, 0,
+                            AutoFormat.ResolveAutoFormat("Auto Format"::AmountFormat,
                                 Header."Currency Code"));
 
                     BarcodeFontProvider := Enum::"Barcode Font Provider 2D"::IDAutomation2D;
                     BarcodeSymbology := Enum::"Barcode Symbology 2D"::"QR-Code";
-                    PKTEncodedString := BarcodeFontProvider.EncodeFont(PKTBarcodeString, BarcodeSymbology); 
+                    PKTEncodedString := BarcodeFontProvider.EncodeFont(PKTBarcodeString, BarcodeSymbology);
                 end;
 
             }
@@ -1317,8 +1317,8 @@ report 50116 "Packt Sales - Invoice"
     end;
 
     var
-        PKTBarcodeString : Text;
-        PKTEncodedString : Text;
+        PKTBarcodeString: Text;
+        PKTEncodedString: Text;
         GLSetup: Record "General Ledger Setup";
         PaymentMethod: Record "Payment Method";
         SalespersonPurchaser: Record "Salesperson/Purchaser";
@@ -1653,15 +1653,14 @@ report 50116 "Packt Sales - Invoice"
 
     local procedure FormatDocumentFields(SalesInvoiceHeader: Record "Sales Invoice Header")
     begin
-        with SalesInvoiceHeader do begin
-            FormatDocument.SetTotalLabels(GetCurrencySymbol(), TotalText, TotalInclVATText, TotalExclVATText);
-            FormatDocument.SetSalesPerson(SalespersonPurchaser, "Salesperson Code", SalesPersonText);
-            FormatDocument.SetPaymentTerms(PaymentTerms, "Payment Terms Code", "Language Code");
-            FormatDocument.SetPaymentMethod(PaymentMethod, "Payment Method Code", "Language Code");
-            FormatDocument.SetShipmentMethod(ShipmentMethod, "Shipment Method Code", "Language Code");
+        FormatDocument.SetTotalLabels(SalesInvoiceHeader.GetCurrencySymbol(), TotalText, TotalInclVATText, TotalExclVATText);
+        FormatDocument.SetSalesPerson(SalespersonPurchaser, SalesInvoiceHeader."Salesperson Code", SalesPersonText);
+        FormatDocument.SetPaymentTerms(PaymentTerms, SalesInvoiceHeader."Payment Terms Code", SalesInvoiceHeader."Language Code");
+        FormatDocument.SetPaymentMethod(PaymentMethod, SalesInvoiceHeader."Payment Method Code", SalesInvoiceHeader."Language Code");
+        FormatDocument.SetShipmentMethod(ShipmentMethod, SalesInvoiceHeader."Shipment Method Code", SalesInvoiceHeader."Language Code");
 
-            OnAfterFormatDocumentFields(SalesInvoiceHeader);
-        end;
+        OnAfterFormatDocumentFields(SalesInvoiceHeader);
+
     end;
 
     local procedure GetJobTaskDescription(JobNo: Code[20]; JobTaskNo: Code[20]): Text[100]
