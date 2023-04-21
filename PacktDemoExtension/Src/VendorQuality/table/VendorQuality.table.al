@@ -8,7 +8,6 @@ table 50102 "PKT Vendor Quality"
         field(1; "Vendor No."; Code[20])
         {
             Caption = 'Vendor No.';
-            DataClassification = CustomerContent;
             TableRelation = Vendor;
         }
         field(2; "Vendor Name"; Text[100])
@@ -16,16 +15,15 @@ table 50102 "PKT Vendor Quality"
             Caption = 'Vendor Name';
             FieldClass = FlowField;
             CalcFormula = lookup(Vendor.Name where("No." = field("Vendor No.")));
+            Editable = false;
         }
         field(3; "Vendor Activity Description"; Text[250])
         {
             Caption = 'Vendor Activity Description';
-            DataClassification = CustomerContent;
         }
         field(4; ScoreItemQuality; Integer)
         {
             Caption = 'Item Quality Score';
-            DataClassification = CustomerContent;
             MinValue = 1;
             MaxValue = 10;
 
@@ -37,7 +35,6 @@ table 50102 "PKT Vendor Quality"
         field(5; ScoreDelivery; Integer)
         {
             Caption = 'Delivery On Time Score';
-            DataClassification = CustomerContent;
             MinValue = 1;
             MaxValue = 10;
 
@@ -49,7 +46,6 @@ table 50102 "PKT Vendor Quality"
         field(6; ScorePackaging; Integer)
         {
             Caption = 'Packaging Score';
-            DataClassification = CustomerContent;
             MinValue = 1;
             MaxValue = 10;
 
@@ -61,7 +57,6 @@ table 50102 "PKT Vendor Quality"
         field(7; ScorePricing; Integer)
         {
             Caption = 'Pricing Score';
-            DataClassification = CustomerContent;
             MinValue = 1;
             MaxValue = 10;
 
@@ -73,28 +68,23 @@ table 50102 "PKT Vendor Quality"
         field(8; Rate; Decimal)
         {
             Caption = 'Vendor Rate';
-            DataClassification = CustomerContent;
         }
         field(10; UpdateDate; DateTime)
         {
             Caption = 'Update Date';
-            DataClassification = CustomerContent;
         }
 
         field(11; InvoicedYearN; Decimal)
         {
             Caption = 'Invoiced for current year (N)';
-            DataClassification = CustomerContent;
         }
         field(12; InvoicedYearN1; Decimal)
         {
             Caption = 'Invoiced for year N-1';
-            DataClassification = CustomerContent;
         }
         field(13; InvoicedYearN2; Decimal)
         {
             Caption = 'Invoiced for year N-2';
-            DataClassification = CustomerContent;
         }
         field(14; DueAmount; Decimal)
         {
@@ -104,9 +94,7 @@ table 50102 "PKT Vendor Quality"
         field(15; AmountNotDue; Decimal)
         {
             Caption = 'Amount to pay (not due)';
-            DataClassification = CustomerContent;
         }
-
     }
 
     keys

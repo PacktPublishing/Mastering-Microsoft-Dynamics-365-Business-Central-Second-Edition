@@ -11,7 +11,7 @@ codeunit 50104 "PKT Shipment Commission Mgt"
         AddItemCharge(SalesHeader, total);
     end;
 
-    //Implementation with Interface
+    //Implementation with Interface (uncomment it if you want to test)
     // [EventSubscriber(ObjectType::Codeunit, Codeunit::"Release Sales Document", 'OnBeforeReleaseSalesDoc', '', false, false)]
     // local procedure AssignShipmentCommission(var SalesHeader: Record "Sales Header")
     // var
@@ -38,7 +38,6 @@ codeunit 50104 "PKT Shipment Commission Mgt"
         SalesLine.SetRange(Type, SalesLine.Type::Item);
         if SalesLine.FindSet() then
             repeat
-            begin
                 OnBeforeCalculateShipmentCommissionLine(SalesLine, total, HandledLine);
                 if not HandledLine then begin
                     if SalesLine.Quantity < 10 then
@@ -47,7 +46,6 @@ codeunit 50104 "PKT Shipment Commission Mgt"
                         total += 5;
                 end;
                 OnAfterCalculateShipmentCommissionLine(SalesLine, total);
-            end
             until SalesLine.Next() = 0;
         OnAfterGetShipmentCommission(SalesHeader, total);
     end;

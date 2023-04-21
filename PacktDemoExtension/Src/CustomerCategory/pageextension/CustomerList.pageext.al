@@ -6,10 +6,10 @@ pageextension 50103 "PKT CustomerListExt" extends "Customer List"
         {
             action("PKT Assign Default Category")
             {
-                Image = ChangeCustomer;
-                ApplicationArea = All;
                 Caption = 'Assign Default Category to all Customers';
                 ToolTip = 'Assigns the Default Category to all Customers';
+                Image = ChangeCustomer;
+                ApplicationArea = All;
 
                 trigger OnAction();
                 var

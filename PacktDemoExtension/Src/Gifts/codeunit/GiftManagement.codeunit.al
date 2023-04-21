@@ -13,24 +13,22 @@ codeunit 50101 "PKT Gift Management"
         if SalesLine.FindSet() then
             repeat
                 //Integration event raised
-                OnBeforeFreeGiftSalesLineAdded(SalesLine, Handled);
-                AddFreeGiftSalesLine(SalesLine, Handled);
+                OnBeforeFreeGiftSalesLineAdded(SalesHeader, SalesLine, Handled);
+                AddFreeGiftSalesLine(SalesHeader, SalesLine, Handled);
                 //Integration Event raised
-                OnAfterFreeGiftSalesLineAdded(SalesLine);
+                OnAfterFreeGiftSalesLineAdded(SalesHeader, SalesLine);
             until SalesLine.Next() = 0;
     end;
 
-    local procedure AddFreeGiftSalesLine(var SalesLine: Record "Sales Line"; var Handled: Boolean)
+    local procedure AddFreeGiftSalesLine(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; var Handled: Boolean)
     var
         GiftCampaign: Record "PKT Gift Campaign";
-        SalesHeader: record "Sales Header";
         Customer: Record Customer;
         SalesLineGift: Record "Sales Line";
         LineNo: Integer;
     begin
         if Handled then
             exit;
-        SalesHeader.Get(SalesLine."Document Type", SalesLine."Document No.");
         Customer.Get(SalesLine."Sell-to Customer No.");
         GiftCampaign.SetRange(CustomerCategoryCode, Customer."PKT Customer Category Code");
         GiftCampaign.SetRange(ItemNo, SalesLine."No.");
@@ -103,12 +101,12 @@ codeunit 50101 "PKT Gift Management"
     end;
 
     [IntegrationEvent(true, false)]
-    local procedure OnBeforeFreeGiftSalesLineAdded(var SalesLine: Record "Sales Line"; var Handled: Boolean)
+    local procedure OnBeforeFreeGiftSalesLineAdded(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; var Handled: Boolean)
     begin
     end;
 
     [IntegrationEvent(true, false)]
-    local procedure OnAfterFreeGiftSalesLineAdded(var SalesLine: Record "Sales Line")
+    local procedure OnAfterFreeGiftSalesLineAdded(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line")
     begin
     end;
 

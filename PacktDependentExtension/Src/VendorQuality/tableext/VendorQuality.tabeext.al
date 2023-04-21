@@ -1,4 +1,4 @@
-tableextension 50200 CUST_VendorQualityExt extends "PKT Vendor Quality"
+tableextension 50200 CUST_PKTVendorQualityExt extends "PKT Vendor Quality"
 {
     fields
     {

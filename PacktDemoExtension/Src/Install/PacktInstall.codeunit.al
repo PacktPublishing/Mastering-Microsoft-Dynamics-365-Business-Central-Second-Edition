@@ -22,7 +22,7 @@ codeunit 50105 "PKT Packt Install"
     end;
 
     // Create and insert a Customer Category record
-    local procedure InsertCustomerCategory(ID: Code[30]; Description: Text[250]; Default: Boolean);
+    local procedure InsertCustomerCategory(ID: Code[20]; Description: Text[50]; Default: Boolean);
     var
         CustomerCategory: Record "PKT Customer Category";
     begin

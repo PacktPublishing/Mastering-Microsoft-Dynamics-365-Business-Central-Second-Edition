@@ -5,8 +5,8 @@ tableextension 50101 "PKT ItemLedgerEntryExt" extends "Item Ledger Entry"
         //Field added during Sales Post
         field(50100; "PKT Customer Category Code"; Code[20])
         {
-            TableRelation = "PKT Customer Category";
             Caption = 'Customer Category';
+            TableRelation = "PKT Customer Category";
             DataClassification = CustomerContent;
         }
     }
@@ -15,7 +15,6 @@ tableextension 50101 "PKT ItemLedgerEntryExt" extends "Item Ledger Entry"
     {
         key(PKTK1; "PKT Customer Category Code")
         {
-
         }
     }
 }

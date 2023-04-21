@@ -3,13 +3,13 @@ codeunit 50100 "PKT Customer Category Mgt"
     procedure CreateDefaultCategory()
     var
         CustomerCategory: Record "PKT Customer Category";
-        DefaultCode: Label 'DEFAULT';
-        DefaultDescription: Label 'Default Customer Category';
+        DefaultCodeTxt: Label 'DEFAULT';
+        DefaultDescriptionTxt: Label 'Default Customer Category';
     begin
-        CustomerCategory.Code := DefaultCode;
-        CustomerCategory.Description := DefaultDescription;
+        CustomerCategory.Code := DefaultCodeTxt;
+        CustomerCategory.Description := DefaultDescriptionTxt;
         CustomerCategory.Default := true;
-        if CustomerCategory.Insert then;
+        if CustomerCategory.Insert() then;
     end;
 
     procedure AssignDefaultCategory(CustomerCode: Code[20])

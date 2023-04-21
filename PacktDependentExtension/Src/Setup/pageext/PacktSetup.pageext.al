@@ -1,4 +1,4 @@
-pageextension 50201 CUST_PacktSetupExt extends "PKT Packt Setup"
+pageextension 50201 CUST_PKTPacktSetupExt extends "PKT Packt Setup"
 {
     layout
     {

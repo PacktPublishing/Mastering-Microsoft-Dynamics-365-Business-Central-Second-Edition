@@ -18,23 +18,13 @@ codeunit 50102 "PKT Vendor Quality Mgt"
           VendorQuality.ScorePackaging + VendorQuality.ScorePricing) / 4;
     end;
 
-    [IntegrationEvent(true, false)]
-    local procedure OnBeforeCalculateVendorRate(var VendorQuality: Record "PKT Vendor Quality"; var Handled: Boolean)
-    begin
-    end;
-
-    [IntegrationEvent(true, false)]
-    local procedure OnAfterCalculateVendorRate(var VendorQuality: Record "PKT Vendor Quality")
-    begin
-    end;
-
     procedure UpdateVendorQualityStatistics(var VendorQuality: Record "PKT Vendor Quality")
     var
         Year: Integer;
         DW: Dialog;
         DialogMessage: Label 'Calculating Vendor statistics...';
     begin
-        DW.OPEN(DialogMessage);
+        DW.Open(DialogMessage);
         Year := DATE2DMY(TODAY, 3);
         VendorQuality.InvoicedYearN := GetInvoicedAmount(VendorQuality."Vendor No.", DMY2DATE(1, 1, Year), TODAY);
         VendorQuality.InvoicedYearN1 := GetInvoicedAmount(VendorQuality."Vendor No.", DMY2DATE(1, 1, Year - 1), DMY2DATE(31, 12, Year - 1));
@@ -52,12 +42,8 @@ codeunit 50102 "PKT Vendor Quality Mgt"
         VendorLedgerEntry.SetRange("Vendor No.", VendorNo);
         VendorLedgerEntry.SetFilter("Document Date", '%1..%2', StartDate, EndDate);
         VendorLedgerEntry.SetLoadFields("Purchase (LCY)");
-        if VendorLedgerEntry.FindSet() then
-            repeat
-                Total += VendorLedgerEntry."Purchase (LCY)";
-            until VendorLedgerEntry.Next() = 0;
-
-        exit(Total * (-1));
+        VendorLedgerEntry.CalcSums("Purchase (LCY)");
+        exit(VendorLedgerEntry."Purchase (LCY)" * (-1));
     end;
 
     local procedure GetDueAmount(VendorNo: Code[20]; Due: Boolean): Decimal
@@ -78,5 +64,15 @@ codeunit 50102 "PKT Vendor Quality Mgt"
             until VendorLedgerEntry.Next() = 0;
 
         exit(Total * (-1));
+    end;
+
+    [IntegrationEvent(true, false)]
+    local procedure OnBeforeCalculateVendorRate(var VendorQuality: Record "PKT Vendor Quality"; var Handled: Boolean)
+    begin
+    end;
+
+    [IntegrationEvent(true, false)]
+    local procedure OnAfterCalculateVendorRate(var VendorQuality: Record "PKT Vendor Quality")
+    begin
     end;
 }

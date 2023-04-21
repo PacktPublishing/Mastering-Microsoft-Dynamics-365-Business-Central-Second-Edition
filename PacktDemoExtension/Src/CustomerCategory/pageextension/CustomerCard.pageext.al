@@ -19,13 +19,13 @@ pageextension 50102 "PKT CustomerCardExt" extends "Customer Card"
 
             action("PKT Assign default category")
             {
+                Caption = 'Assign Default Category';
+                ToolTip = 'Assigns a Default Category to the current Customer';
                 Image = ChangeCustomer;
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
                 ApplicationArea = All;
-                Caption = 'Assign Default Category';
-                ToolTip = 'Assigns a Default Category to the current Customer';
 
                 trigger OnAction();
                 var

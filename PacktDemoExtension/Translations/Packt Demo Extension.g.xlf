@@ -53,15 +53,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table PKT Gift Campaign - Field CustomerCategoryCode - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2850790231 - Field 1342167883 - Method 2126772001 - NamedType 232331533" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2850790231 - Field 1342167883 - Method 2126772001 - NamedType 3944760885" size-unit="char" translate="yes" xml:space="preserve">
           <source>This category is not enabled for Gift Campaigns.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Gift Campaign - Field CustomerCategoryCode - Method OnValidate - NamedType ErrNoGifts</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Gift Campaign - Field CustomerCategoryCode - Method OnValidate - NamedType NoGiftsErr</note>
         </trans-unit>
-        <trans-unit id="Table 2850790231 - Field 1342167883 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 2850790231 - Field 1342167883 - Method 2126772001 - NamedType 3621259247" size-unit="char" translate="yes" xml:space="preserve">
           <source>This category is blocked.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Gift Campaign - Field CustomerCategoryCode - Method OnValidate - NamedType ErrBlocked</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Gift Campaign - Field CustomerCategoryCode - Method OnValidate - NamedType BlockedErr</note>
         </trans-unit>
         <trans-unit id="Table 2850790231 - Field 3592094765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending Date</source>
@@ -198,15 +198,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table PKT Vendor Quality - Field Vendor No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4075668271 - Method 1258366377 - NamedType 90186738" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 4075668271 - Method 1258366377 - NamedType 3927793954" size-unit="char" translate="yes" xml:space="preserve">
           <source>DEFAULT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PKT Customer Category Mgt - Method CreateDefaultCategory - NamedType DefaultCode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PKT Customer Category Mgt - Method CreateDefaultCategory - NamedType DefaultCodeTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4075668271 - Method 1258366377 - NamedType 2485661351" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 4075668271 - Method 1258366377 - NamedType 137853743" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default Customer Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PKT Customer Category Mgt - Method CreateDefaultCategory - NamedType DefaultDescription</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PKT Customer Category Mgt - Method CreateDefaultCategory - NamedType DefaultDescriptionTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 499833808 - Method 2267899969 - NamedType 3471820988" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor %1 has a rate of %2 and it's under the required minimum value (%3)</source>
@@ -828,10 +828,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension PKT CustomerExt - Field PKT Customer Category Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3591208326 - Field 3608072090 - Method 2126772001 - NamedType 2006978215" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3591208326">
+        <trans-unit id="TableExtension 3591208326 - Field 3608072090 - Method 2126772001 - NamedType 3621259247" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3591208326">
           <source>This category is blocked.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PKT CustomerExt - Field PKT Customer Category Code - Method OnValidate - NamedType ErrBlocked</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PKT CustomerExt - Field PKT Customer Category Code - Method OnValidate - NamedType BlockedErr</note>
         </trans-unit>
         <trans-unit id="TableExtension 3065178246 - Field 3608072090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
           <source>Customer Category</source>

@@ -1,10 +1,10 @@
 page 50101 "PKT Customer Category Card"
 {
+    Caption = 'Customer Category Card';
+    SourceTable = "PKT Customer Category";
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Documents;
-    SourceTable = "PKT Customer Category";
-    Caption = 'Customer Category Card';
 
     layout
     {
@@ -15,23 +15,18 @@ page 50101 "PKT Customer Category Card"
                 Caption = 'General';
                 field(Code; Rec.Code)
                 {
-                    ApplicationArea = All;
                 }
                 field(Description; Rec.Description)
                 {
-                    ApplicationArea = All;
                 }
                 field(Default; Rec.Default)
                 {
-                    ApplicationArea = All;
                 }
                 field(EnableNewsletter; Rec.EnableNewsletter)
                 {
-                    ApplicationArea = All;
                 }
                 field(FreeGiftsAvailable; Rec.FreeGiftsAvailable)
                 {
-                    ApplicationArea = All;
                 }
             }
 
@@ -40,21 +35,17 @@ page 50101 "PKT Customer Category Card"
                 Caption = 'Administration';
                 field(Blocked; Rec.Blocked)
                 {
-                    ApplicationArea = All;
                 }
             }
-
             group(Statistics)
             {
                 Caption = 'Statistics';
                 field(TotalCustomersForCategory; Rec.TotalCustomersForCategory)
                 {
-                    ApplicationArea = All;
                     Editable = false;
                 }
                 field(TotalSalesAmount; TotalSalesAmount)
                 {
-                    ApplicationArea = All;
                     Caption = 'Total Sales Order Amount';
                     Editable = false;
                     Style = Strong;

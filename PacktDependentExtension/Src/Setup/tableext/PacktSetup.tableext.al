@@ -1,4 +1,4 @@
-tableextension 50201 CUST_PacktSetupExt extends "PKT Packt Setup"
+tableextension 50201 CUST_PKTPacktSetupExt extends "PKT Packt Setup"
 {
     fields
     {

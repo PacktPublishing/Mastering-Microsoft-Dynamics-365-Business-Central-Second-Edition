@@ -1,4 +1,4 @@
-pageextension 50200 CUST_VendorQualityCardExt extends "PKT Vendor Quality Card"
+pageextension 50200 CUST_PKTVendorQualityCardExt extends "PKT Vendor Quality Card"
 {
     layout
     {

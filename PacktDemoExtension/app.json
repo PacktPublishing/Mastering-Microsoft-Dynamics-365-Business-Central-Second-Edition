@@ -5,15 +5,15 @@
   "brief": "Customer Category, Gift Campaigns and Vendor Quality Management",
   "description": "Customer Category, Gift Campaigns and Vendor Quality Management",
   "version": "1.0.0.0",
-  "privacyStatement": "http://www.demiliani.com",
-  "EULA": "http://www.demiliani.com",
-  "help": "http://www.demiliani.com",
-  "url": "http://www.demiliani.com",
+  "privacyStatement": "http://www.packtpub.com",
+  "EULA": "http://www.packtpub.com",
+  "help": "http://www.packtpub.com",
+  "url": "http://www.packtpub.com",
   "logo": "./Logo/ExtLogo.png",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "21.0.0.0",
+  "application": "22.0.0.0",
   "features": [
     "NoImplicitWith","TranslationFile"
   ],
@@ -30,5 +30,5 @@
     "includeSourceInSymbolFile": true,
     "applyToDevExtension": false
   },
-  "runtime": "10.0"
+  "runtime": "11.0"
 }

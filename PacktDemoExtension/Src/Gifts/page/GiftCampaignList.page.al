@@ -1,9 +1,9 @@
 page 50103 "PKT Gift Campaign List"
 {
-    PageType = List;
-    SourceTable = "PKT Gift Campaign";
-    UsageCategory = Lists;
     Caption = 'Gift Campaigns';
+    SourceTable = "PKT Gift Campaign";
+    PageType = List;
+    UsageCategory = Lists;
     ApplicationArea = All;
     AdditionalSearchTerms = 'promotions, marketing';
     AboutTitle = 'About Gift Campaigns';
