@@ -208,6 +208,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PKT Customer Category Mgt - Method CreateDefaultCategory - NamedType DefaultDescriptionTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 499833808 - Method 1197468618 - NamedType 1487074659" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer %1 is blocked by category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PKT General Event Subscribers - Method OnBeforeCheckCustBlockageByCategory - NamedType CustBlockByCategoryLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 499833808 - Method 2267899969 - NamedType 3471820988" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor %1 has a rate of %2 and it's under the required minimum value (%3)</source>
           <note from="Developer" annotates="general" priority="2"></note>

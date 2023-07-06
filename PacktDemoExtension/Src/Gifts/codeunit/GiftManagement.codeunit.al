@@ -60,7 +60,7 @@ codeunit 50101 "PKT Gift Management"
             exit(0);
     end;
 
-    [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterValidateEvent', 'Quantity', false, false)]
+    [EventSubscriber(ObjectType::Table, Database::"Sales Line", OnAfterValidateEvent, Quantity, false, false)]
     local procedure CheckGiftEligibility(var Rec: Record "Sales Line")
     var
         GiftCampaign: Record "PKT Gift Campaign";

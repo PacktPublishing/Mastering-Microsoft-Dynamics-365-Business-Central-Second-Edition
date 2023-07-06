@@ -70,7 +70,7 @@ codeunit 50100 "PKT Customer Category Mgt"
         exit(TotalAmount);
     end;
 
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::ReportManagement, 'OnAfterSubstituteReport', '', false, false)]
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::ReportManagement, OnAfterSubstituteReport, '', false, false)]
     local procedure OnAfterSubstituteReport(ReportId: Integer; var NewReportId: Integer)
     begin
         if ReportId = Report::"Standard Sales - Invoice" then

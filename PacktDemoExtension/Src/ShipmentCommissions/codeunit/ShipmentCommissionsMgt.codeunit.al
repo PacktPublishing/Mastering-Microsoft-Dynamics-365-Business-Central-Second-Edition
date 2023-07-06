@@ -1,8 +1,8 @@
 codeunit 50104 "PKT Shipment Commission Mgt"
 {
 
-    //Implementation with events
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Release Sales Document", 'OnBeforeReleaseSalesDoc', '', false, false)]
+    //Implementation with events (comment it if you want to use the interface-based implementation)
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Release Sales Document", OnBeforeReleaseSalesDoc, '', false, false)]
     local procedure AssignShipmentCommission(var SalesHeader: Record "Sales Header")
     var
         total: Decimal;
