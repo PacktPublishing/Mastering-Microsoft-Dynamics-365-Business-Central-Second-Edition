@@ -1,0 +1,6 @@
+POST https://sdqrcodegenerator.azurewebsites.net/api/QRGenerator
+x-functions-key: YOURFUNCTIONKEYHERE
+
+{
+    "url": "http://www.packtpub.com"
+}

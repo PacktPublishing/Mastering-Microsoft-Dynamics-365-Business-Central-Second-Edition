@@ -1,0 +1,142 @@
+ExpenseEntry As screen:
+
+    AppHeader_2 As AppHeader:
+        HeaderTxt: ="New Expense Entry"
+
+    AppNavigation_2 As AppNavigation:
+        ExpenseEntries: =ExpenseArchive
+        HomeScreenProp: =HomePage
+        NewExpenseProp: =ExpenseEntry
+        Online: =false
+        Y: =1036
+        ZIndex: =2
+
+    ExpenseDate As datepicker:
+        Height: =70
+        Size: =24
+        Width: =575
+        X: =32
+        Y: =172
+        ZIndex: =3
+
+    inptExpenseDescription As text:
+        Default: =""
+        Height: =70
+        HintText: ="Description"
+        Size: =21
+        Width: =575
+        X: =32
+        Y: =393
+        ZIndex: =4
+
+    DropDownExpenseType As dropdown:
+        Default: =""""""
+        Height: =70
+        Items: =SortByColumns(colExpenseTypes,"code",SortOrder.Ascending)
+        Size: =21
+        Width: =575
+        X: =32
+        Y: =282
+        ZIndex: =5
+
+    inptExpenseAmt As text:
+        Default: =""
+        Height: =70
+        HintText: ="Expense Amount"
+        Size: =21
+        Width: =575
+        X: =32
+        Y: =517
+        ZIndex: =6
+
+    SaveExpense As button:
+        Height: =70
+        OnSelect: |-
+            =If(
+                Connection.Connected,
+                //The variable of varJournalLineID stores the response from the Patch() function. This will have the journalLineId which is required to         add a dimension to a journal line through the API page
+                Set(
+                    varJournalLineID,
+                    Patch(
+                        'journalLines (v2.0)',
+                        Defaults('journalLines (v2.0)'),
+                        {
+                            journalId: varJournalID,
+                            accountType: "G/L Account",
+                            accountNumber: "31550",
+                            postingDate: Today(),
+                            amount: Value(inptExpenseAmt.Text),
+                            description: inptExpenseDescription.Text,
+                            comment: DropDownExpenseType.SelectedText.'data-ADB4D7A662F548B49FAC2B986E348A1Bcode'
+                        }
+                    )
+                );
+                //Run a Power Automate Flow to assign a dimension value to the created journal line which is posted to the G/L
+                AssignDimensionValuetoJournalLine.Run(
+                    Text(varJournalID),
+                    Text(varJournalLineID.id),
+                    DropDownExpenseType.SelectedText.'data-ADB4D7A662F548B49FAC2B986E348A1Bcode'
+                );
+                Patch(
+                    'journalLines (v2.0)',
+                    Defaults('journalLines (v2.0)'),
+                    {
+                        journalId: varJournalID,
+                        accountType: "Employee",
+                        accountNumber: First(colEmployees).number,
+                        postingDate: Today(),
+                        amount: Value(inptExpenseAmt.Text),
+                        description: inptExpenseDescription.Text,
+                        comment: DropDownExpenseType.SelectedText.'data-ADB4D7A662F548B49FAC2B986E348A1Bcode'
+                    }
+                );
+                ,
+            //Expense Entry
+                Collect(
+                    colExpenseEntries,
+                    {
+                        journalId: varJournalID,
+                        accountType: "G/L Account",
+                        accountNumber: "31550",
+                        postingDate: ExpenseDate.SelectedDate,
+                        amount: Value(inptExpenseAmt.Text),
+                        description: inptExpenseDescription.Text,
+                        comment: DropDownExpenseType.SelectedText.'data-ADB4D7A662F548B49FAC2B986E348A1Bcode'
+                    }
+                );
+                
+            //Balancing Entry
+            Collect(
+                    colExpenseEntries,
+                    {
+                        journalId: varJournalID,
+                        accountType: "Employee",
+                        accountNumber: First(colEmployees).number,
+                        postingDate: ExpenseDate.SelectedDate,
+                        amount: Value(inptExpenseAmt.Text) - Value(inptExpenseAmt.Text)*2,
+                        description: inptExpenseDescription.Text,
+                        comment: DropDownExpenseType.SelectedText.'data-ADB4D7A662F548B49FAC2B986E348A1Bcode'
+                    }
+                );
+                SaveData(
+                    colExpenseEntries,
+                    "colExpenseEntries"
+                )
+            );
+            Reset(ExpenseDate);
+            Reset(inptExpenseAmt);
+            Reset(inptExpenseDescription);
+            Reset(DropDownExpenseType)
+        Size: =24
+        Text: =If(Connection.Connected,"Submit","Save")
+        Visible: |-
+            =If(
+                Or(IsBlank(ExpenseDate.SelectedDate),IsBlank(inptExpenseAmt.Text),IsBlank(inptExpenseDescription.Text),IsBlank(DropDownExpenseType.SelectedText.'data-ADB4D7A662F548B49FAC2B986E348A1Bcode')),
+                false,
+                true
+            )
+        Width: =280
+        X: =179
+        Y: =682
+        ZIndex: =7
+

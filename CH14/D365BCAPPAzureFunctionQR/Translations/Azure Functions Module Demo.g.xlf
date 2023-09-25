@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Azure Functions Module Demo">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 3919374992 - Method 737157807 - NamedType 1553449007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://sdqrcodegenerator.azurewebsites.net/api/QRGenerator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SD Azure Functions Demo - Method GenerateQRCode - NamedType funcUrl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2079150250 - Action 3544672219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Generate Customer QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SDCustomerCardExt - Action SDQRCode - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

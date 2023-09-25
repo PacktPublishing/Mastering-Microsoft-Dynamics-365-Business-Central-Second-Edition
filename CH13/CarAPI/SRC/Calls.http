@@ -1,0 +1,206 @@
+### TEST OAUTH 2.0
+@clientid = f5232252-3b33-4fca-a4a9-c683ded98934
+@clientsecret = Xee7Q~TO-l.hTRjSnFRnvKuPPZv3d5tRhWaid
+@scope = https://api.businesscentral.dynamics.com/.default
+@tenant = a3f1f921-2ac4-48b2-8ed4-6719c53a0603
+
+
+###########################################################################
+#    ____      _                                   _        _              
+#   / ___| ___| |_    __ _  ___ ___ ___  ___ ___  | |_ ___ | | _____ _ __  
+#  | |  _ / _ \ __|  / _` |/ __/ __/ _ \/ __/ __| | __/ _ \| |/ / _ \ '_ \ 
+#  | |_| |  __/ |_  | (_| | (_| (_|  __/\__ \__ \ | || (_) |   <  __/ | | |
+#   \____|\___|\__|  \__,_|\___\___\___||___/___/  \__\___/|_|\_\___|_| |_|
+#
+###########################################################################
+# @name tokenrequest
+POST https://login.microsoftonline.com/{{tenant}}/oauth2/v2.0/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials
+&client_id={{clientid}}
+&client_secret={{clientsecret}}
+&scope={{scope}}
+
+###
+@token = {{tokenrequest.response.body.access_token}}
+###
+
+@baseurl = https://api.businesscentral.dynamics.com/v2.0/USSandbox
+
+#######################################################################
+#    ____      _                                           _           
+#   / ___| ___| |_    ___ ___  _ __ ___  _ __   __ _ _ __ (_) ___  ___ 
+#  | |  _ / _ \ __|  / __/ _ \| '_ ` _ \| '_ \ / _` | '_ \| |/ _ \/ __|
+#  | |_| |  __/ |_  | (_| (_) | | | | | | |_) | (_| | | | | |  __/\__ \
+#   \____|\___|\__|  \___\___/|_| |_| |_| .__/ \__,_|_| |_|_|\___||___/
+#                                       |_|                            
+######################################################################
+# @name companies
+GET {{baseurl}}/api/v2.0/companies
+Authorization: Bearer {{token}}
+
+###
+@companyid = {{companies.response.body.value[0].id}}
+
+
+###List of cars
+GET {{baseurl}}/api/sd/custom/v1.0/companies({{companyid}})/cars
+Authorization: Bearer {{token}}
+
+
+###Insert a new Car
+POST {{baseurl}}/api/sd/custom/v1.0/companies({{companyid}})/cars
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{      
+      "modelno": "M005",
+      "description": "Fiat 500",
+      "brand": "FIAT",
+      "engineType": "Petrol",
+      "power": 75
+}
+
+###Detail of the Mercedes Car 
+GET {{baseurl}}/api/sd/custom/v1.0/companies({{companyid}})/cars(24e5343d-a927-ee11-bdf5-00224828e836)
+Authorization: Bearer {{token}}
+
+###Custom Customer API
+GET {{baseurl}}/api/packt/customapi/v1.0/companies({{companyid}})/customers
+Authorization: Bearer {{token}}
+
+###Entity definitions
+GET {{baseurl}}/api/packt/customapi/v1.0/entityDefinitions
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+###Customer bound action
+POST {{baseurl}}/api/packt/customapi/v1.0/companies({{companyid}})/customers(71b117ef-e06c-ed11-81b5-6045bd8e591f)/Microsoft.NAV.clone
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###Calling an unbound action
+POST {{baseurl}}/ODataV4/PKTUnboundActions_GetSalesAmountForCustomer?company=18bb64bd-e06c-ed11-81b5-6045bd8e591f
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+      "customerNo": "10000"
+}
+
+###List of Journals
+GET {{baseurl}}/api/v2.0/companies({{companyid}})/journals
+Authorization: Bearer {{token}}
+
+###List of Accounts
+GET {{baseurl}}/api/v2.0/companies({{companyid}})/accounts
+Authorization: Bearer {{token}}
+
+###Batch Request
+@companyId = 18bb64bd-e06c-ed11-81b5-6045bd8e591f
+@journalId = e4700afb-e06c-ed11-81b5-6045bd8e591f
+@accountId = 2ab117ef-e06c-ed11-81b5-6045bd8e591f
+POST {{baseurl}}/api/v2.0/$batch
+Authorization: Bearer {{token}}
+Content-Type: application/json
+Accept: application/json
+
+{
+	"requests": [
+		{
+			"method": "POST",
+			"id": "r1",
+			"url": "companies({{companyId}})/journals({{journalId}})/journalLines",
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"body": {
+			    "accountId": "{{accountId}}",
+			    "postingDate": "2023-07-27",
+			    "documentNumber": "JNL2023-07-01",
+			    "amount": -5000,
+			    "description": "Salary to Consultants"
+			}
+		},
+		{
+			"method": "POST",
+			"id": "r2",
+			"url": "companies({{companyId}})/journals({{journalId}})/journalLines",
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"body": {
+			    "accountId": "{{accountId}}",
+			    "postingDate": "2023-07-27",
+			    "documentNumber": "JNL2023-07-02",
+			    "amount": -7500,
+			    "description": "Salary to Developers"
+	        }
+		}	
+	]
+}
+
+###Batch Request (Journal lines + Post)
+@companyId = 18bb64bd-e06c-ed11-81b5-6045bd8e591f
+@journalId = e4700afb-e06c-ed11-81b5-6045bd8e591f
+@accountId = 2ab117ef-e06c-ed11-81b5-6045bd8e591f
+POST {{baseurl}}/api/v2.0/$batch
+Authorization: Bearer {{token}}
+Content-Type: application/json
+Accept: application/json
+
+{
+	"requests": [
+		{
+			"method": "POST",
+			"id": "r1",
+			"url": "companies({{companyId}})/journals({{journalId}})/journalLines",
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"body": {
+			    "accountId": "{{accountId}}",
+			    "postingDate": "2023-07-27",
+			    "documentNumber": "JNL2023-07-01",
+			    "amount": -5000,
+			    "description": "Salary to Consultants"
+			}
+		},
+		{
+			"method": "POST",
+			"id": "r2",
+			"url": "companies({{companyId}})/journals({{journalId}})/journalLines",
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"body": {
+			    "accountId": "{{accountId}}",
+			    "postingDate": "2023-07-27",
+			    "documentNumber": "JNL2023-07-02",
+			    "amount": -7500,
+			    "description": "Salary to Developers"
+	        }
+		},
+            {
+            "method": "POST",
+			"id": "4",
+            "dependsOn": ["r1","r2"],
+			"url": "companies({{companyId}})/journals({{journalId}})/Microsoft.NAV.post",
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"body": { }
+        }	
+	]
+}
+
+
+
+
+
+
+
+
+,
+        

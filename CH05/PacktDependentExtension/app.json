@@ -1,0 +1,40 @@
+{
+  "id": "1e56e028-c699-44c3-b1da-ecb31642407b",
+  "name": "Packt Dependent Extension",
+  "publisher": "PACKT",
+  "brief": "Customizations app",
+  "description": "Customer Category, Gift Campaigns and Vendor Quality Management",
+  "version": "1.0.0.0",
+  "privacyStatement": "http://www.demiliani.com",
+  "EULA": "http://www.demiliani.com",
+  "help": "http://www.demiliani.com",
+  "url": "http://www.demiliani.com",
+  "logo": "./Logo/ExtLogo.png",
+  "dependencies": [
+    {
+      "id": "dd03d28e-4dfe-48d9-9520-c875595362b6",
+      "name": "Packt Demo Extension",
+      "publisher": "PACKT",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "features": [
+    "NoImplicitWith","TranslationFile"
+  ],
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://PacktDependentExtension.com/help/",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0"
+}

@@ -1,0 +1,94 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |
+        =If(
+            Connection.Connected,
+            ClearCollect(
+                colEmployees,
+                Filter(
+                    'employees (v2.0)',
+                    email = User().Email And status = "Active" And number <>""
+                )
+            );
+            Set(
+                varJournalID,
+                GUID(
+                    LookUp(
+                        'Environment Variable Definitions',
+                        'Schema Name' = "cr8cf_JournalBatchID"
+                    ).'Default Value'
+                )
+            );
+            IfError(
+                LoadData(
+                    colExpenseEntries,
+                    "colExpenseEntries"
+                ),
+                ClearCollect(
+                    colExpenseEntries,
+                    {
+                        journalId: varJournalID,
+                        accountType: "G/L Account",
+                        accountNumber: "10000",
+                        postingDate: Today(),
+                        amount: 0,
+                        description: "",
+                        comment: ""
+                    }
+                )
+            );
+            Set(
+                varDimensionID,
+                GUID(
+                    LookUp(
+                        'Environment Variable Definitions',
+                        'Schema Name' = "cr8cf_DimensionID"
+                    ).'Default Value'
+                )
+            );
+            ClearCollect(
+                colExpenseTypes,
+                Filter(
+                    'dimensionValues (v2.0)',
+                    dimensionId = varDimensionID
+                )
+            );
+            Collect(
+                colExpenseTypes,
+                {code: ""}
+            );
+            SaveData(
+                colEmployees,
+                "colEmployees"
+            );
+            SaveData(
+                colExpenseTypes,
+                "colExpenseTypes"
+            );
+            SaveData(
+                colExpenseEntries,
+                "colExpenseEntries"
+            );
+            ,
+            Set(
+                varJournalID,
+                GUID("24f6b614-32b4-ed11-9a88-6045bd0f96aa")
+            );
+            Set(
+                varDimensionID,
+                GUID("60d1836d-38b4-ed11-9a88-6045bd0f96aa")
+            );
+            LoadData(
+                colExpenseEntries,
+                "colExpenseEntries"
+            );
+            LoadData(
+                colEmployees,
+                "colEmployees"
+            )
+        );
+        LoadData(
+            colExpenseTypes,
+            "colExpenseTypes"
+        );
+

@@ -1,0 +1,194 @@
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\host.json
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\local.settings.json
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Azure Services.deps.json
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Azure Services.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\ref\Azure Services.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Azure Services.pdb
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\System.Net.Http.Formatting.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authorization.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Routing.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Host.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Extensions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Extensions.Http.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Host.Storage.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.DependencyModel.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Hosting.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Logging.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.ObjectPool.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Options.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Primitives.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Net.Http.Headers.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\NCrontab.Signed.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Newtonsoft.Json.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Newtonsoft.Json.Bson.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\QRCoder.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.WindowsAzure.Storage.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.csproj.AssemblyReference.cache
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.AssemblyInfoInputs.cache
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.AssemblyInfo.cs
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.csproj.CoreCompileInputs.cache
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.csproj.CopyComplete
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\ref\Azure Services.dll
+C:\Users\StefanoDemiliani\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.pdb
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\host.json
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\local.settings.json
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Azure Services.deps.json
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Azure Services.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Azure Services.pdb
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\System.Net.Http.Formatting.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authorization.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Routing.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Host.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Extensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Extensions.Http.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Azure.WebJobs.Host.Storage.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.DependencyModel.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Hosting.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Logging.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.ObjectPool.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Options.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Extensions.Primitives.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.Net.Http.Headers.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\NCrontab.Signed.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Newtonsoft.Json.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Newtonsoft.Json.Bson.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\QRCoder.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\output\Microsoft.WindowsAzure.Storage.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\host.json
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\local.settings.json
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Azure Services.deps.json
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Azure Services.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Azure Services.pdb
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Azure.WebJobs.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Extensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Extensions.Http.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.Storage.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\NCrontab.Signed.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\QRCoder.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\bin\Debug\net6.0\Microsoft.WindowsAzure.Storage.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.csproj.AssemblyReference.cache
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.AssemblyInfoInputs.cache
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.AssemblyInfo.cs
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.csproj.CoreCompileInputs.cache
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.csproj.CopyComplete
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\refint\Azure Services.dll
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\Azure Services.pdb
+C:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\obj\Debug\net6.0\ref\Azure Services.dll

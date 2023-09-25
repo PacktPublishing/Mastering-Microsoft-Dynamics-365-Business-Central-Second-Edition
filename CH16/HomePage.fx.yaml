@@ -1,0 +1,55 @@
+HomePage As screen:
+
+    AppHeader_1 As AppHeader:
+        HeaderTxt: =User().FullName&"'s Expenses"
+
+    AppNavigation_1 As AppNavigation:
+        ExpenseEntries: =ExpenseArchive
+        HomeScreenProp: =HomePage
+        NewExpenseProp: =ExpenseEntry
+        Online: =false
+        Y: =1036
+        ZIndex: =2
+
+    ExpArchive As icon.AddDocument:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =324
+        Icon: =Icon.History
+        OnSelect: =Navigate(ExpenseArchive,BorderStyle.None)
+        Width: =296
+        X: =172
+        Y: =592
+        ZIndex: =3
+
+    NewExpense As icon.AddDocument:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =324
+        Icon: =Icon.AddDocument
+        OnSelect: =Navigate(ExpenseEntry,BorderStyle.None)
+        Width: =296
+        X: =172
+        Y: =184
+        ZIndex: =5
+
+    lblNewExpense As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="New Expense"
+        Width: =560
+        X: =40
+        Y: =493
+        ZIndex: =6
+
+    lblExpArchive As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Expense Archive"
+        Width: =560
+        X: =40
+        Y: =916
+        ZIndex: =7
+

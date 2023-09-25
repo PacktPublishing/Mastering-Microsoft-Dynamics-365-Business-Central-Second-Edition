@@ -1,0 +1,117 @@
+ExpenseArchive As screen:
+
+    AppHeader_3 As AppHeader:
+        HeaderTxt: ="Expense Archive"
+
+    "galExpenseEntries As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        Height: =836
+        Items: =Filter(colExpenseEntries,amount>0)
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(168, Self.Height - 60)
+        Y: =100
+        ZIndex: =1
+
+        Title3 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.comment
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle3 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.postingDate
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title3.Y + Title3.Height + 2
+            ZIndex: =2
+
+        Body1 As label:
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.amount
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Subtitle3.Y + Subtitle3.Height + 4
+            ZIndex: =3
+
+        NextArrow3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator3 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    AppNavigation_3 As AppNavigation:
+        ExpenseEntries: =ExpenseArchive
+        HomeScreenProp: =HomePage
+        NewExpenseProp: =ExpenseEntry
+        Y: =1036
+        ZIndex: =2
+
+    Submit As button:
+        Height: =70
+        OnSelect: |-
+            =ForAll(
+                colExpenseEntries,
+                If(
+                    amount <> 0,
+                    Patch(
+                        'journalLines (v2.0)',
+                        Defaults('journalLines (v2.0)'),
+                        {
+                            journalId: journalId,
+                            accountType: accountType,
+                            accountNumber: accountNumber,
+                            postingDate: postingDate,
+                            amount: amount,
+                            description: description,
+                            comment: comment
+                        }
+                    )
+                )
+            );
+            Clear(colExpenseEntries)
+        Size: =24
+        Text: ="Submit"
+        Visible: =If(And(Connection.Connected,CountRows(colExpenseEntries)>=2),true,false)
+        Width: =280
+        X: =180
+        Y: =936
+        ZIndex: =3
+

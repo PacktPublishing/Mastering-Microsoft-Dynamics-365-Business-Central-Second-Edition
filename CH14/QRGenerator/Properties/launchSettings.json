@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Azure_Services": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7282",
+      "launchBrowser": false
+    }
+  }
+}
