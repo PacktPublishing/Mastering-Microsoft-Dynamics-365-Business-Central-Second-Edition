@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Packt Report Triggers Demo">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1388076510 - Field 3825741327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BigIntField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field BigIntField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 616395089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CodeField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field CodeField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 2854863747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 1519063299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DecimailFieldWithFormat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field DecimailFieldWithFormat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 1122376149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DecimalFieldNoFormat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field DecimalFieldNoFormat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 1637095154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field Duration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 2404345096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IntegerField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field IntegerField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 4233707119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KeyField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field KeyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 1594621544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 324663332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PictureMedia</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field PictureMedia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 1065333094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PictureMediaSet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field PictureMediaSet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 4214382132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Picture_Url</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field Picture_Url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 4263934329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TextField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field TextField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 3476076219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text_Url</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field Text_Url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 785378728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text_UrlText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field Text_UrlText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1388076510 - Field 1230148255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers - Field Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2507569673 - Field 2232002706 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ItemDecimal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Lines - Field ItemDecimal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2507569673 - Field 4210994414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ItemLine1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Lines - Field ItemLine1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2507569673 - Field 2297904563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ItemLine2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Lines - Field ItemLine2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2507569673 - Field 1368373035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ItemPicture</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Lines - Field ItemPicture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2507569673 - Field 4233707119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KeyField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Lines - Field KeyField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2507569673 - Field 2222019289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ParentReportItem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Lines - Field ParentReportItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2157275540 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Log Table - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2157275540 - Field 1171500359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Text Encoded</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Log Table - Field Is Text Encoded - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2157275540 - Field 1925831875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Log Table - Field Output File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2157275540 - Field 1556117986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output File Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Log Table - Field Output File Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2157275540 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PKT Report Triggers Log Table - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3866985341 - NamedType 4293594902" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReportTriggersPrinter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PKT Report Triggers Subs. - NamedType DefaultPrinterName</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PKT Report Triggers List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 2494488911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report.Print - RDLC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action Report.Print - RDLC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 412020070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report.Print - Word</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action Report.Print - Word - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 3691545454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report.Run - Implicit Print (RDLC)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action Report.Run - Implicit Print (RDLC) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 3619718943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report.Run - Implicit Print (Word)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action Report.Run - Implicit Print (Word) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 2876433330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report.SaveAs - Pdf (RDLCLayout)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action Report.SaveAs - Pdf (RDLCLayout) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 576544075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report.SaveAs - Pdf (WordLayout)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action Report.SaveAs - Pdf (WordLayout) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 2807199569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Layout Selction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action Reset Layout Selection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3688240540 - Action 1570166248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RunObject</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers List - Action RunObject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 494728959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PKT Report Triggers Logs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers Logs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 494728959 - Action 2787516006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PKT Report Triggers Logs - Action DownloadFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3430247323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PKT Demo Report Triggers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PKT Demo Report Triggers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3430247323 - ReportLayout 2789844063 - Property 2166945456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel Layout Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PKT Demo Report Triggers - ReportLayout ExcelLayout - Property Summary</note>
+        </trans-unit>
+        <trans-unit id="Report 3430247323 - ReportLayout 2789844063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excel Layout Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PKT Demo Report Triggers - ReportLayout ExcelLayout - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3430247323 - ReportLayout 3367648989 - Property 2166945456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RDLC Layout Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PKT Demo Report Triggers - ReportLayout RDLCLayout - Property Summary</note>
+        </trans-unit>
+        <trans-unit id="Report 3430247323 - ReportLayout 3367648989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RDLC Layout Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PKT Demo Report Triggers - ReportLayout RDLCLayout - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3430247323 - ReportLayout 3548004808 - Property 2166945456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Word Layout Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PKT Demo Report Triggers - ReportLayout WordLayout - Property Summary</note>
+        </trans-unit>
+        <trans-unit id="Report 3430247323 - ReportLayout 3548004808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Word Layout Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PKT Demo Report Triggers - ReportLayout WordLayout - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
