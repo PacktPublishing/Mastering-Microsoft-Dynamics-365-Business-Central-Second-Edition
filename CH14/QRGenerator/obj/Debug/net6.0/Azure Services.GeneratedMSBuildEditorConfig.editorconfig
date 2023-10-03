@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Azure_Services
-build_property.ProjectDir = c:\Users\stefano\OneDrive\MS Workshop NAV D365BC\EVENTI\2022-11-28 Microsoft Italy Event\Azure Services\QRGenerator\
+build_property.ProjectDir = c:\Users\stefano\OneDrive\Packt\Mastering Dynamics 365 Business Central V2 DRAFT\Mastering-Microsoft-Dynamics-365-Business-Central-Second-Edition\CH14\QRGenerator\

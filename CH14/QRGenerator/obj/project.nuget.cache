@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MgFLcjC3l17TcZozI2lfvlzc/8fj/xgF4OfQKUxal7Vt0bIX+VjhsicxAB5HwadpqSZpJ5kO31npHkUpshWgvw==",
+  "dgSpecHash": "EGuHaZEnX2tENZV5VHgTGvuzQ3AgWnRRpt4PvxtxNGeoqD2XNgWZOkBOOVJkuPgdXxvSVAG78AitBiHUBMzKmQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\stefano\\OneDrive\\MS Workshop NAV D365BC\\EVENTI\\2022-11-28 Microsoft Italy Event\\Azure Services\\QRGenerator\\Azure Services.csproj",
+  "projectFilePath": "c:\\Users\\stefano\\OneDrive\\Packt\\Mastering Dynamics 365 Business Central V2 DRAFT\\Mastering-Microsoft-Dynamics-365-Business-Central-Second-Edition\\CH14\\QRGenerator\\Azure Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stefano\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.4\\microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",
     "C:\\Users\\stefano\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.0\\microsoft.aspnetcore.authentication.abstractions.2.1.0.nupkg.sha512",
