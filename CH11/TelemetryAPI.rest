@@ -1,0 +1,13 @@
+//Change: 
+//  1. Application Insights Resource (8dec0de6-8bd1-4e21-97f9-3ab87aac6f7e),
+//  2. API Key (wswynymyidhgl1c0w6uhxx7c7bzqp6sioajc8c33) 
+//  3. aadTenantId (72fdeebd-28e2-4685-8494-c1a417aa6d59) 
+//with yours 
+POST https://api.applicationinsights.io/v1/apps/8dec0de6-8bd1-4e21-97f9-3ab87aac6f7e/query
+X-Api-Key: wswynymyidhgl1c0w6uhxx7c7bzqp6sioajc8c33
+Content-Type: application/json 
+
+{
+    "query" : "traces | where customDimensions.aadTenantId =='72fdeebd-28e2-4685-8494-c1a417aa6d59' and customDimensions.environmentType == 'Production' and customDimensions.environmentName == 'Production' | where customDimensions.eventId in ('AL0000E24','AL0000E25','AL0000E26','AL0000HE7') | extend jobQueueEventId = tostring(customDimensions.eventId) | summarize count() by jobQueueEventId | extend noOfEvents = toint(count_), eventName = case(jobQueueEventId == 'AL0000E24', 'Enqueued', jobQueueEventId == 'AL0000E25', 'Started', jobQueueEventId == 'AL0000E26', 'Finished', jobQueueEventId == 'AL0000HE7', 'Failed', 'UNKNOWN') | project-away count_ | project jobQueueEventId, noOfEvents, eventName | sort by jobQueueEventId asc",
+    "timespan" : "P10D"
+}
