@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EGuHaZEnX2tENZV5VHgTGvuzQ3AgWnRRpt4PvxtxNGeoqD2XNgWZOkBOOVJkuPgdXxvSVAG78AitBiHUBMzKmQ==",
+  "dgSpecHash": "dSeWSxwYJa77Vr0lOlOYGvsGF/YEOuUFJD32lPF9LTcKy7GXO4rt0zq7OrXSb/+j+5Is+8NAmV9EQARe/xpqDA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\stefano\\OneDrive\\Packt\\Mastering Dynamics 365 Business Central V2 DRAFT\\Mastering-Microsoft-Dynamics-365-Business-Central-Second-Edition\\CH14\\QRGenerator\\Azure Services.csproj",
+  "projectFilePath": "C:\\Users\\stefano\\OneDrive\\Packt\\Mastering Dynamics 365 Business Central V2 DRAFT\\Mastering-Microsoft-Dynamics-365-Business-Central-Second-Edition\\CH14\\QRGenerator\\Azure Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stefano\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.4\\microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",
     "C:\\Users\\stefano\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.0\\microsoft.aspnetcore.authentication.abstractions.2.1.0.nupkg.sha512",
